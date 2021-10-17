@@ -8,12 +8,12 @@ Simple JSON Database. Easy to Use and Very Simple
 To install the node-module
 
 ``
-npm install db.simple
+npm install db.js.org
 ``
 
 Code:
 ```js
-let DB = new require('db.simple')
+let DB = new require('db.js.org')
 let db = DB.Database()
 ```
 <h1>Methods</h1>
