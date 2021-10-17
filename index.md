@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Db.js.org
 
 
 # db.js.org
@@ -39,22 +39,29 @@ let db = DB.Database()
 db.get('epog') //output: {ID:'epog', 'TEST DATA'}
 ```
  - `.add(name, number)`
+ 
  ```js 
  //Adds a number to a data. //return Data Object 
  db.add('epogCount',2) //output: {ID:'epogCount', 3}
 
  ```
+ 
  - `.subtract(name, number)`
+ 
   ```js 
  // Subtract a number from data
   db.subtract('epogCount',2) //output: {ID:'epogCount', 1}
  ```
+ 
  - `.all()`
+ 
  ```js 
  // Returns all data in database
   db.all() //output: [ { ID: 'epogCount', data: 1 }, { ID: 'epog', data: 'TEST DATA' } ]
  ```
+ 
  - `.startsWith(name)` 
+ 
  ```js 
  // Returns all data starting with "Specified Name" in database
  
@@ -68,7 +75,9 @@ db.startsWith('Roles_')
   { ID: 'Roles_1634476131616', data: 5 }
 ]
  ```
+ 
    - `.delete(name, data)`
+ 
  ```js 
  // Delete data from database
   db.delete('Today')
@@ -76,12 +85,15 @@ db.startsWith('Roles_')
  ```
  
   - `.set(name, data)`
+ 
  ```js 
  // Set data to database
   db.set('Today',Date.now())
 //output: { ID: 'Today', data: 1634476515562 }
  ```
+ 
   - `.push(name, data)`
+ 
  ```js 
  // push data into Array[]
   db.push('epogArray','asd')
@@ -95,7 +107,9 @@ db.startsWith('Roles_')
 ]
 
  ```
+ 
    - `.resetDatabase()`
+ 
  ```js 
  // Reset Database
   db.resetDatabase()
