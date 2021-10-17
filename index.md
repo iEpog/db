@@ -16,7 +16,6 @@ Code:
 ```js
 let DB = new require('db.simple')
 let db = DB.Database()
-
 ```
 <h1>Methods</h1>
 
@@ -39,15 +38,12 @@ let db = DB.Database()
 db.get('epog') //output: {ID:'epog', 'TEST DATA'}
 ```
  - `.add(name, number)`
- 
  ```js 
  //Adds a number to a data. //return Data Object 
  db.add('epogCount',2) //output: {ID:'epogCount', 3}
-
  ```
  
  - `.subtract(name, number)`
- 
   ```js 
  // Subtract a number from data
   db.subtract('epogCount',2) //output: {ID:'epogCount', 1}
