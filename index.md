@@ -1,7 +1,6 @@
 ## Db.js.org
 
 
-# db.js.org
 Simple JSON Database. Easy to Use and Very Simple
 
 <h1>Installation</h1>
